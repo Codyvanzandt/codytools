@@ -1,0 +1,10 @@
+Package: codytools
+Title: Personal Plotting and Website Tools
+Version: 0.1.0
+Authors@R: person("Cody", "VanZandt", email = "cody.a.vanzandt@gmail.com", role = c("aut", "cre"))
+Description: A warm literary ggplot2 theme, and helpers for sending plots from analysis
+    projects to posts on a Quarto website and publishing it.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: ggplot2 (>= 4.0.0), grid, gtable, scales (>= 1.4.0), systemfonts, tools, utils
+Suggests: ggdist, knitr, ragg
