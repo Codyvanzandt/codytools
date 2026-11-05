@@ -1,10 +1,12 @@
 Package: codytools
-Title: Personal Plotting and Website Tools
-Version: 0.1.0
+Title: Personal Plotting, Website and Stan Tools
+Version: 0.2.0
 Authors@R: person("Cody", "VanZandt", email = "cody.a.vanzandt@gmail.com", role = c("aut", "cre"))
-Description: A warm literary ggplot2 theme, and helpers for sending plots from analysis
-    projects to posts on a Quarto website and publishing it.
+Description: A warm literary ggplot2 theme, helpers for sending plots from analysis
+    projects to posts on a Quarto website and publishing it, and a small Stan workflow
+    (cached fitting, sampler checks, summaries and rank plots).
 License: MIT + file LICENSE
 Encoding: UTF-8
-Imports: ggplot2 (>= 4.0.0), grid, gtable, scales (>= 1.4.0), systemfonts, tools, utils
-Suggests: ggdist, knitr, ragg
+Imports: ggplot2 (>= 4.0.0), grid, gtable, rlang, scales (>= 1.4.0), systemfonts, tools, utils
+Suggests: bayesplot, cmdstanr, ggdist, knitr, posterior, ragg, tidybayes
+Additional_repositories: https://stan-dev.r-universe.dev
